@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 // Entrypoint
 let args = process.argv.slice(2);
 let fs = require('fs');
@@ -28,6 +29,10 @@ for (let i = 0; i < args.length; i++) {
     }
     if (args[i] == '-E' || args[i] == '--save-sandbox') {
         switches.saveSbx = switches.input.split('.').slice(0, -1).join('.') + '.sbx.js';
+    }
+    if (args[i] == '-h' || args[i] == '--help') {
+        help()
+        process.exit();
     }
 }
 if (!switches.input) {
