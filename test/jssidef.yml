@@ -1,0 +1,4 @@
+out:
+  args:
+    - number sig
+  rets: undefined

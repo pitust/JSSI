@@ -1,0 +1,9 @@
+{
+    "types": {
+        "number": "i32",
+        "undefined": "void",
+        "boolean": "bool"
+    },
+    "suffix": " | null",
+    "prefix": ""
+}
