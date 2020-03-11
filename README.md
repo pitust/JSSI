@@ -1,5 +1,5 @@
 # JSSI
-JSSI is a TypeScript to JavaScript compiler.
+JSSI is a JavaScript to TypeScript compiler.
 
 ## Installation
 Make sure you have node.js installed
